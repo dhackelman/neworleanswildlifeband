@@ -1,0 +1,40 @@
+.college__basics {
+  align-items: center;
+  border: 2px solid $royal;
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  width: 55%;
+
+  h2 {
+      background-color: $royal;
+      color: $almost;
+      margin: 0;
+      padding: 15px 0;
+      text-align: center;
+      width: 100%;
+  }
+
+  p {
+    font-weight: 700;
+    width: 100%;
+  }
+
+  span {
+    font-weight: 400;
+    padding: 1%;
+  }
+
+  .college__visuals {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px;
+
+    .college__visuals-map {
+      border: 3px solid $navy;
+      border-radius: 5px;
+    }
+  }
+}

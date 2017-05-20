@@ -1,0 +1,83 @@
+.matchup__container {
+  border: 2px solid $royal;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 4px 0;
+  padding: 1px;
+  width: 100%;
+}
+
+.team__container {
+  background: rgba($almost, 0.5);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  width: 100%;
+
+  .team__info {
+    color: $lemon;
+    margin: 3px 3px 0 3px;
+    max-height: 25px;
+    max-width: 25px;
+    padding: 1px;
+    }
+
+  .team__logo {
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    }
+
+    .placeholder {
+      height: 20px;
+      margin: 3px 0;
+      width: 20px;
+    }
+
+  .team__seed {
+    margin: 5px 3px;
+    }
+
+  .team__name {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 3px;
+  }
+  :active {
+    background-color: $lemon;
+  }
+}
+
+
+
+.team__container:hover {
+  background: rgba($almost, 1);
+}
+.team__pick {
+  background-color: blue;
+}
+
+.team__selected { // team selected
+  background-color: $avocado;
+}
+.team__not__selected {
+  background-color: $burnt;
+}
+
+.the__champ {
+  align-items: center;
+  border: 2px solid $royal;
+  height: 100px;
+  margin: 10px;
+  width: 90%;
+
+  .team__logo{
+    height: 40px;
+    width: 40px;
+  }
+
+  .team__name {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}

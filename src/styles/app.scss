@@ -1,0 +1,28 @@
+// ------ Global Imports ------ //
+@import 'partials/globals/variables';
+@import 'partials/globals/reset';
+@import 'partials/globals/view-changers';
+
+// ------- Animations --------- //
+@import 'partials/globals/animation';
+// ------- Site Imports ------- //
+@import 'partials/common';
+@import 'partials/header';
+
+@import 'partials/brackets-main-region';
+@import 'partials/brackets-matchups';
+@import 'partials/brackets-rounds';
+@import 'partials/login-page';
+@import 'partials/teacher-confirm';
+
+@import 'partials/teacher-landing';
+@import 'partials/teacher-inbox';
+@import 'partials/teacher-homeroom';
+@import 'partials/teacher-roster';
+
+@import'partials/research-container';
+@import'partials/research-initial';
+@import'partials/research-form';
+
+// ------ Site Modifiers ------ //
+@import "partials/typography";

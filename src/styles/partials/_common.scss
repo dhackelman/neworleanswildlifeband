@@ -1,0 +1,71 @@
+
+
+// kipp button style !
+.kippBtn {
+  background-color: $royal;
+  border: 3px solid $royal;
+  border-radius: 5px;
+  color: $almost;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px 35px;
+
+}
+.kippBtn:hover {
+  background-color: $burnt;
+  border: 3px solid $royal;
+  color: $almost;
+}
+
+.nav__container {
+  padding-top: 10px;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    .nav__items {
+      border: 3px solid $royal;
+      border-radius: 5px;
+      color: $royal;
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding: 5px 25px;
+      text-align: center;
+      width: 20%;
+    }
+    .nav__items:hover {
+      background-color: $skyBlue;
+      color: $royal;
+    }
+  }
+}
+// empty container for placeholder - DO NOT REMOVE - sm
+.empty__container {
+  height: 1px;
+  visibility: hidden;
+  width: 100px;
+}
+
+form,
+input,
+textarea {
+    box-sizing: border-box;
+    margin: 2%;
+    padding: 2%;
+    width: 95%;
+
+    textarea {
+      color: $navy;
+      font-family: $primaryFont;
+      font-size: 20px;
+      height: 280px;
+    }
+}
+
+// input:focus,
+textarea:focus {
+    background: white;
+    border-radius: 5px;
+    outline: none;
+}

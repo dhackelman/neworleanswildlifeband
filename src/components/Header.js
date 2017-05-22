@@ -11,11 +11,11 @@ class Header extends React.Component {
               <h1 className="band__header">New Orleans Wildlife Band</h1>
               <div className="band__navigation">
                   <nav>
-                    <li>About Us</li>
-                    <li>Music + Videos</li>
-                    <li>Booking</li>
-                    <li>Press</li>
-                    <li>FAQs</li>
+                    <Link to="/main"><li>About Us</li></Link>
+                    <Link to="/musicvideos"><li>Music + Videos</li></Link>
+                    <Link to="/main"><li>Booking</li></Link>
+                    <Link to="/main"><li>Press</li></Link>
+                    <Link to="/main"><li>FAQs</li></Link>
                   </nav>
                 </div>
             </div>

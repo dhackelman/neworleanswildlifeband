@@ -1,34 +1,76 @@
-.header__container {
-  background-color: $almost;
-  border-bottom: 5px solid $royal;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  padding: 5px;
-}
-
-.header__logo {
-  height: 75px;
-  max-height: 100px;
-  max-width: 25%
-}
-
-.header__homerooom {
-  h1 {
-    margin-bottom: 0.1em;
-    margin-top: 0.1em;
-    width: 100%;
+@media (max-width: 470px) {
+  .header__container {
+    border-bottom: 5px solid black;
+    height: 50px;
+    padding-top: 10px;
+    .band__header {
+      margin: 0 auto;
+      font-size: .9rem;
+    }
+    .band__social__media {
+      background-color: rgba(250, 250, 250, .8);
+      display: flex;
+      align-items: center;
+      height: 30px;
+      position: fixed;
+      top: 90vh;
+      width: 100%;
+    }
   }
 }
 
-.header__logout {
-  align-items: center;
-  display: flex;
-  max-height: 50px;
+.header__container {
+  background-color: rgba(240, 240, 240, .85);
+  // border: 5px solid white;
+  // max-height: 60px;
+  position: absolute;
+  top: 30px;
+  text-align: center;
+  width: 100%;
 }
-.header__logout:hover {
-  background-color: $burnt;
-  border: 5px solid $royal;
-  color: $almost;
+
+.band__header {
+  font-size: 1.5rem;
+  max-height: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.band__social__media{
+  display: inline-block;
+  // margin-left: 15px;
+  // padding: 0;
+  width: 20%;
+
+  .social__icon {
+    float: left;
+    margin: 5px 5px;
+    max-height: 23px;
+    max-width: 23px;
+  }
+  #email {
+    max-width: 23px;
+    max-height: 22px;
+  }
+}
+
+.band__navigation {
+  display: inline-block;
+  padding: 0;
+  width: 70%;
+    nav {
+      display: flex;
+      align-items: center;
+      height: 33px;
+      justify-content: flex-start;
+      margin: 0 auto;
+      width: 100%;
+    }
+  li {
+    font-size: .6rem;
+    font-style: $bodyFont;
+    font-weight: 600;
+    list-style: none;
+    margin: 0 auto;
+  }
 }

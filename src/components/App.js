@@ -1,5 +1,8 @@
 import React from 'react';
-import Header from './Header'
+import Header from './Header';
+import SocialMedia from './SocialMedia';
+import Main from './Main';
+import Footer from './Footer';
 import axios from 'axios';
 
 class App extends React.Component {
@@ -23,9 +26,11 @@ class App extends React.Component {
     render() {
 
         return (
-            <div>
-                <h1>This is The New Orleans Wildlife Band.</h1>
+            <div className="main">
                 <Header/>
+                <SocialMedia/>
+                <Main/>
+                <Footer/>
             </div>
         );
     }

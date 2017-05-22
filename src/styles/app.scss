@@ -6,23 +6,9 @@
 // ------- Animations --------- //
 @import 'partials/globals/animation';
 // ------- Site Imports ------- //
-@import 'partials/common';
 @import 'partials/header';
-
-@import 'partials/brackets-main-region';
-@import 'partials/brackets-matchups';
-@import 'partials/brackets-rounds';
-@import 'partials/login-page';
-@import 'partials/teacher-confirm';
-
-@import 'partials/teacher-landing';
-@import 'partials/teacher-inbox';
-@import 'partials/teacher-homeroom';
-@import 'partials/teacher-roster';
-
-@import'partials/research-container';
-@import'partials/research-initial';
-@import'partials/research-form';
+@import 'partials/main_content';
+@import 'partials/footer';
 
 // ------ Site Modifiers ------ //
 @import "partials/typography";

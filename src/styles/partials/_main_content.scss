@@ -1,0 +1,32 @@
+.main__container {
+  background-color: rgba(white, .8);
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 95vw;
+}
+
+.home {
+  color: rgba(0,0,0,1);
+  font-family: $bodyFont;
+  font-size: .8rem;
+  padding: 5px 15px;
+
+  }
+  .band__photo {
+    display: inline-block;
+    margin: 10px 5px;
+    max-width: 30%;
+  }
+  @media (max-width: 470px) {
+    .band__photo {
+      display: block;
+      margin: 10px auto;
+      min-width: 90%;
+    }
+}
+
+@media (max-width: 470px) {
+.main__container {
+  margin-top: 80px;
+  }
+}

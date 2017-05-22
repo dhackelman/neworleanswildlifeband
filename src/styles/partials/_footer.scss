@@ -1,0 +1,21 @@
+@media (max-width: 470px) {
+  .footer__content {
+    display: none;
+  }
+}
+
+.footer__content {
+  background-color: black;
+  color: white;
+  width: 100%;
+
+  .footer__specifics {
+    display: inline-block;
+    font-family: $bodyFont;
+    font-size: .6rem;
+    margin-left: 5%;
+    width: 50%;
+
+
+  }
+}

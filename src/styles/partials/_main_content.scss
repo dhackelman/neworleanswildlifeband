@@ -8,14 +8,20 @@
 .home {
   color: rgba(0,0,0,1);
   font-family: $bodyFont;
-  font-size: .8rem;
+  font-size: 1.1rem;
   padding: 5px 15px;
+  margin: 20px auto;
+  width: 80%;
+
+  #band__intro__info {
+    text-align: justify;
+  }
 
   }
   .band__photo {
-    display: inline-block;
-    margin: 10px 5px;
-    max-width: 30%;
+    display: block;
+    margin: 20px auto;
+    max-width: 70%;
   }
   @media (max-width: 470px) {
     .band__photo {

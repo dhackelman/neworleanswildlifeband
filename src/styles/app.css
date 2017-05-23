@@ -170,7 +170,7 @@ a:visited {
 .header__container {
   background-color: rgba(240, 240, 240, 0.85);
   position: absolute;
-  top: 30px;
+  top: 40px;
   text-align: center;
   width: 100%; }
 
@@ -206,7 +206,7 @@ a:visited {
     margin: 0 auto;
     width: 100%; }
   .band__navigation li {
-    font-size: .7rem;
+    font-size: .85rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     list-style: none;
@@ -239,13 +239,17 @@ a:visited {
 .home {
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-size: .8rem;
-  padding: 5px 15px; }
+  font-size: 1.1rem;
+  padding: 5px 15px;
+  margin: 20px auto;
+  width: 80%; }
+  .home #band__intro__info {
+    text-align: justify; }
 
 .band__photo {
-  display: inline-block;
-  margin: 10px 5px;
-  max-width: 30%; }
+  display: block;
+  margin: 20px auto;
+  max-width: 70%; }
 
 @media (max-width: 470px) {
   .band__photo {

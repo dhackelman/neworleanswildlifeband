@@ -21,18 +21,21 @@
   .band__photo {
     display: block;
     margin: 20px auto;
-    max-width: 70%;
+    width: 85%;
   }
-  @media (max-width: 470px) {
+  @media (max-width: 520px) {
     .band__photo {
       display: block;
       margin: 10px auto;
-      min-width: 90%;
+      width: 90%;
     }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 520px) {
 .main__container {
-  margin-top: 100px;
+  margin-top: 130px;
+  }
+  .home {
+    font-size: 0.8rem;
   }
 }

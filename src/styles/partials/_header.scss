@@ -64,7 +64,7 @@
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 520px) {
   .header__container {
     border-bottom: 5px solid black;
     min-height: 65px;
@@ -77,8 +77,8 @@
       .band__navigation {
         nav {
           li {
-          font-size: 0.8rem;
-          margin: 0 auto;
+          font-size: 0.6rem;
+          margin: 0 10px;
           }
         }
       }

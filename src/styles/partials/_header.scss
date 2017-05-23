@@ -9,7 +9,7 @@
 }
 
 .band__header {
-  font-size: 1.5rem;
+  font-size: 2rem;
   max-height: 100%;
   margin: 0 auto;
   width: 100%;
@@ -24,12 +24,12 @@
   .social__icon {
     float: left;
     margin: 5px 5px;
-    max-height: 23px;
-    max-width: 23px;
+    max-height: 30px;
+    max-width: 30px;
   }
   #email {
-    max-width: 23px;
-    max-height: 22px;
+    max-width: 28px;
+    max-height: 27px;
   }
   .band__book {
     // color: black;
@@ -49,7 +49,7 @@
     nav {
       display: flex;
       align-items: center;
-      height: 33px;
+      height: 38px;
       justify-content: center;
       margin: 0 auto;
       width: 100%;
@@ -70,13 +70,13 @@
     padding-top: 10px;
     .band__header {
       margin: 0 auto;
-      font-size: .9rem;
+      font-size: 1.25rem;
     }
 
       .band__navigation {
         nav {
           li {
-          font-size: 0.5rem;
+          font-size: 0.8rem;
           margin: 0 auto;
           }
         }

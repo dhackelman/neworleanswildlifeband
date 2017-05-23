@@ -2,7 +2,7 @@
   "name": "cotd",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://scmccoy.github.io/KIPP-Madness/",
+  "homepage": "https://dhackelman.github.io/neworleanswildlifeband/",
   "devDependencies": {
     "autoprefixer-stylus": "0.10.0",
     "babel-eslint": "^7.1.1",
@@ -40,7 +40,8 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
-    "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css"
+    "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css",
+    "deploy" : "npm run build&&gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/.eslintrc"

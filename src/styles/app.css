@@ -212,7 +212,7 @@ a:visited {
     list-style: none;
     margin: 0 20px; }
 
-@media (max-width: 520px) {
+@media (max-width: 620px) {
   .header__container {
     border-bottom: 5px solid black;
     min-height: 65px;
@@ -251,12 +251,12 @@ a:visited {
   margin: 20px auto;
   width: 85%; }
 
-@media (max-width: 520px) {
+@media (max-width: 620px) {
   .band__photo {
     display: block;
     margin: 10px auto;
     width: 90%; } }
-@media (max-width: 520px) {
+@media (max-width: 620px) {
   .main__container {
     margin-top: 130px; }
 

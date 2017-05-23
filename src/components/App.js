@@ -24,12 +24,15 @@ class App extends React.Component {
     }
 
     render() {
+      const childWithProp = React.Children.map(this.props.children, (child) => {
+          return React.cloneElement(child);
+      });
 
         return (
             <div className="main">
                 <Header/>
                 <SocialMedia/>
-                <Main/>
+                 {childWithProp}
                 <Footer/>
             </div>
         );

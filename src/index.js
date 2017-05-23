@@ -10,8 +10,7 @@ import NotFound from './components/NotFound';
 ReactDOM.render((
     <Router history={browserHistory}>
         <Route path='/' component={App}>
-            <IndexRoute component={App}/>
-              <Route path='main' component={Main}/>
+            <IndexRoute component={Main}/>
               <Route path='musicvideos' component={MusicVideos}/>
               <Route path="*" component={NotFound}/>
         </Route>

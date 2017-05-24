@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import SocialMedia from './SocialMedia';
-import Main from './Main';
+import About from './About';
 import Footer from './Footer';
 import axios from 'axios';
 

@@ -3,9 +3,10 @@ import React from 'react';
 class NotFound extends React.Component {
     render() {
         return (
-            <p>
-                NotFound
-            </p>
+            <div>
+                <p className="coming__soon">Coming Soon!</p>
+                <p className="patience">Thanks for your patience!</p>
+            </div>
         );
     }
 }

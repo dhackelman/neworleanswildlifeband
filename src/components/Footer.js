@@ -6,7 +6,7 @@ class Footer extends React.Component {
 
         return (
             <div className="footer__content">
-              <p className="footer__specifics">	&copy; Hackelsmash Productions</p>
+              <p className="footer__specifics">	&copy; New Orleans Wildlife Band 2017</p>
             </div>
         );
     }

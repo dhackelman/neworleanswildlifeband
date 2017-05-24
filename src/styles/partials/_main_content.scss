@@ -17,25 +17,26 @@
     text-align: justify;
   }
 
-  }
-  .band__photo {
-    display: block;
-    margin: 20px auto;
-    width: 85%;
-  }
-  @media (max-width: 620px) {
-    .band__photo {
-      display: block;
-      margin: 10px auto;
-      width: 90%;
+}
+.landing__container, .links__container, .music__container, .photos__container, .calendar__container, .contact__container{
+  display: block;
+  max-height: 33vh;
+  width: 100%;
+    .container__jumbotron {
+      max-height: 100%;
+      min-width: 100vw;
+      margin: 0 auto;
     }
 }
+.videos__container {
+  margin: 0 auto;
+  width: 60%;
 
+  .video__placeholder {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
 @media (max-width: 620px) {
-.main__container {
-  margin-top: 130px;
-  }
-  .home {
-    font-size: 0.8rem;
-  }
+
 }

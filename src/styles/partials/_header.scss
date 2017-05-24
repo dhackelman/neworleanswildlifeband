@@ -1,9 +1,13 @@
+#main {
+  background-color: black;
+  height: calc((100vh) + 60px);
+}
 .header__container {
-  background-color: rgba(240, 240, 240, .85);
+  background-color: rgba(136, 7, 38, 0.6);
   // border: 5px solid white;
-  // max-height: 60px;
+  margin: 2vw auto;
   position: absolute;
-  top: 40px;
+  top: 80vh;
   text-align: center;
   width: 100%;
 }
@@ -11,37 +15,11 @@
 .band__header {
   // color: red;
   font-size: 2rem;
-  max-height: 100%;
+  // max-height: 100%;
   margin: 0 auto;
   width: 100%;
 }
 
-.band__social__media{
-  display: inline-block;
-  // margin: 0 auto;
-  // padding: 0;
-  width: 100%;
-
-  .social__icon {
-    float: left;
-    margin: 5px 5px;
-    max-height: 30px;
-    max-width: 30px;
-  }
-  #email {
-    max-width: 28px;
-    max-height: 27px;
-  }
-  .band__book {
-    // color: black;
-    display: none;
-    // font-size: .7rem;
-    // font-style: $bodyFont;
-    // text-align: right;
-    // min-height: 100%;
-    // width: 80%;
-  }
-}
 
 .band__navigation {
   display: inline-block;
@@ -55,7 +33,7 @@
       margin: 0 auto;
       width: 100%;
     }
-  li {
+  .band__navigation__link {
     font-size: .85rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -65,33 +43,27 @@
 }
 
 @media (max-width: 620px) {
-  .header__container {
-    border-bottom: 5px solid black;
-    min-height: 65px;
-    padding-top: 10px;
-    .band__header {
-      margin: 0 auto;
-      font-size: .9rem;
-    }
-
-      .band__navigation {
-        nav {
-          li {
-          font-size: 0.6rem;
-          margin: 0 10px;
-          }
-        }
-      }
+  .band__header {
+    font-size: 1rem;
   }
-  .band__social__media {
-    background-color: rgba(250, 250, 250, .8);
-    height: 30px;
-    position: fixed;
-    top: 90vh;
-    width: 100%;
-
-    .band__book {
-      // display: inline;
+  .band__navigation {
+    display: inline-block;
+    padding: 0;
+    width: 70%;
+      nav {
+        display: flex;
+        align-items: center;
+        height: 38px;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+      }
+    .band__navigation__link {
+      font-size: .5rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      list-style: none;
+      margin: 0 8px;
     }
   }
 }

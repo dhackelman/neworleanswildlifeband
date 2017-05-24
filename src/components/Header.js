@@ -8,7 +8,7 @@ class Header extends React.Component {
     render() {
         return (
             <div className="header__container">
-              <Link to="/"><h1 className="band__header">New Orleans Wildlife Band</h1></Link>
+              <Link to="/neworleanswildlifeband/"><h1 className="band__header">New Orleans Wildlife Band</h1></Link>
               <div className="band__navigation">
                   <nav>
                     <Link to="/neworleanswildlifeband/about"><li className="band__navigation__link">About</li></Link>

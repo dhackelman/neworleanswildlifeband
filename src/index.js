@@ -15,8 +15,8 @@ import NotFound from './components/NotFound';
 
 ReactDOM.render((
     <Router history={browserHistory}>
-        <Route path='/' component={App}>
-            <IndexRoute path='/neworleanswildlifeband' component={Landing}/>
+        <Route path='/neworleanswildlifeband/' component={App}>
+            <IndexRoute path='/' component={Landing}/>
               <Route path='about' component={About}/>
               <Route path='music' component={Music}/>
               <Route path='videos' component={Videos}/>

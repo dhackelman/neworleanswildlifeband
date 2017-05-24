@@ -30,7 +30,7 @@ class App extends React.Component {
         return (
             <div className="main">
                 <Header/>
-                                 {childWithProp}
+                  {childWithProp}
                 <Footer/>
             </div>
         );

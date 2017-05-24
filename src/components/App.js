@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import SocialMedia from './SocialMedia';
 import About from './About';
 import Footer from './Footer';
 import axios from 'axios';
@@ -31,8 +30,7 @@ class App extends React.Component {
         return (
             <div className="main">
                 <Header/>
-                <SocialMedia/>
-                 {childWithProp}
+                                 {childWithProp}
                 <Footer/>
             </div>
         );

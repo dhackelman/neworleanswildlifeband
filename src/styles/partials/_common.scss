@@ -1,0 +1,60 @@
+#main {
+  background-color: $almost;
+  height: 15000px;
+}
+
+.content__header {
+  min-width: 100vw;
+
+  .container__jumbotron {
+    width: 100%;
+  }
+}
+
+.content__container {
+  background-color: rgba(230, 230, 230, 0.95);
+  min-height: 200px;
+  padding-top: 5%;
+  width: 100vw;
+}
+
+.coming__soon, .patience {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.patience {
+  font-size: 0.75rem;
+}
+
+.video__container {
+  margin: 1% auto;
+  width: 100%;
+  iframe {
+    max-height: 250px;
+    margin-right: calc(((100vw) - 320px)/2);
+    margin-left: calc(((100vw) - 320px)/2);
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .container__jumbotron {
+    margin: 0 auto;
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 580px) {
+  .video__container {
+    iframe {
+      max-height: 350px;
+      margin-right: calc(((100vw) - 500px)/2);
+      margin-left: calc(((100vw) - 500px)/2);
+      width: 500px;
+    }
+  }
+}

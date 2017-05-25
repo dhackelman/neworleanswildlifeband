@@ -24,7 +24,7 @@ ReactDOM.render((
               <Route path='/neworleanswildlifeband/calendar' component={Calendar}/>
               <Route path='/neworleanswildlifeband/contact' component={Contact}/>
               <Route path='/neworleanswildlifeband/links' component={Links}/>
-              <Route path="/neworleanswildlifeband/*" component={NotFound}/>
+              <Route path="/neworleanswildlifeband/" component={NotFound}/>
         </Route>
     </Router>
 ), document.getElementById('main'));

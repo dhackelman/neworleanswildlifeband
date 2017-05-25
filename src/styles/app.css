@@ -168,11 +168,52 @@ a:visited {
   100% {
     transform: scale(1.2); } }
 #main {
-  background-color: black;
-  height: calc((100vh) + 60px); }
+  background-color: #f2f2f2;
+  height: 15000px; }
 
+.content__header {
+  min-width: 100vw; }
+  .content__header .container__jumbotron {
+    width: 100%; }
+
+.content__container {
+  background-color: rgba(230, 230, 230, 0.95);
+  min-height: 200px;
+  padding-top: 5%;
+  width: 100vw; }
+
+.coming__soon, .patience {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 auto;
+  width: 90%; }
+
+.patience {
+  font-size: 0.75rem; }
+
+.video__container {
+  margin: 1% auto;
+  width: 100%; }
+  .video__container iframe {
+    max-height: 250px;
+    margin-right: calc(((100vw) - 320px)/2);
+    margin-left: calc(((100vw) - 320px)/2);
+    width: 320px; }
+
+@media only screen and (max-width: 580px) {
+  .container__jumbotron {
+    margin: 0 auto;
+    width: 100vw; } }
+@media only screen and (min-width: 580px) {
+  .video__container iframe {
+    max-height: 350px;
+    margin-right: calc(((100vw) - 500px)/2);
+    margin-left: calc(((100vw) - 500px)/2);
+    width: 500px; } }
 .header__container {
   background-color: rgba(185, 43, 145, 0.6);
+  display: none;
   margin: 2vw auto;
   position: absolute;
   top: 80vh;
@@ -223,51 +264,10 @@ a:visited {
       font-weight: 700;
       list-style: none;
       margin: 0 8px; } }
-.main__container {
-  background-color: rgba(255, 255, 255, 0.8);
-  margin: 0 auto;
-  margin-top: 150px;
-  width: 95vw; }
-
-.home {
-  color: black;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
-  padding: 5px 15px;
-  margin: 20px auto;
-  width: 80%; }
-  .home #band__intro__info {
-    text-align: justify; }
-
-.landing__container, .links__container, .music__container, .photos__container, .calendar__container, .contact__container {
-  display: block;
-  max-height: 33vh;
-  width: 100%; }
-  .landing__container .container__jumbotron, .links__container .container__jumbotron, .music__container .container__jumbotron, .photos__container .container__jumbotron, .calendar__container .container__jumbotron, .contact__container .container__jumbotron {
-    max-height: 100%;
-    min-width: 100vw;
-    margin: 0 auto; }
-
-.videos__container {
-  margin: 0 auto;
-  width: 60%; }
-  .videos__container .video__placeholder {
-    margin: 0 auto;
-    width: 100%; }
-
-.coming__soon, .patience {
-  font-size: 3rem;
-  margin: 10vw auto 2vw;
-  text-align: center;
-  width: 100%; }
-
-.patience {
-  font-size: 1.5rem;
-  margin: 0 auto 3vw; }
-
 .footer__content {
   background-color: black;
   color: white;
+  display: none;
   height: 50px;
   position: absolute;
   top: calc((100vh) + 40px);
@@ -278,65 +278,3 @@ a:visited {
     margin: 1vh auto;
     text-align: center;
     width: 100%; }
-
-h1 {
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.6;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  text-transform: uppercase; }
-
-h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 1.6;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
-  margin-left: 0;
-  margin-right: 0;
-  text-transform: uppercase; }
-
-h3 {
-  font-size: 1.3rem;
-  font-weight: 600;
-  line-height: 1.6;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  text-transform: uppercase; }
-
-h4 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1.6;
-  margin-top: 1.33em;
-  margin-bottom: 1.33em;
-  margin-left: 0;
-  margin-right: 0;
-  text-transform: uppercase; }
-
-h5 {
-  font-size: 0.9rem;
-  font-weight: 600;
-  line-height: 1.6;
-  margin-top: 1.67em;
-  margin-bottom: 1.67em;
-  margin-left: 0;
-  margin-right: 0;
-  text-transform: uppercase; }
-
-h6 {
-  font-size: 0.7rem;
-  font-weight: 600;
-  line-height: 1.6;
-  margin-top: 2.33em;
-  margin-bottom: 2.33em;
-  margin-left: 0;
-  margin-right: 0;
-  text-transform: uppercase; }
-
-/*# sourceMappingURL=app.css.map */

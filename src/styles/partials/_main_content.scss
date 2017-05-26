@@ -1,0 +1,48 @@
+.container__album {
+  background: url(../images/clouds.png) center center;
+  background-size: 100%;
+
+  img {
+    height: 70%;
+    margin: 0 15% 0 15%;
+    width: 70%;
+  }
+}
+
+.about__text {
+  font-size: .9rem;
+  text-align: justify;
+  margin: 10px auto;
+  width: 90%;
+}
+
+.external__link {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 15px 0 5px 50px;
+  text-align: left;
+}
+
+.video__container {
+  background: url(../images/clouds.png) center center;
+  background-size: 100%;
+  margin: 1% auto;
+  width: 100%;
+  iframe {
+    max-height: 250px;
+    margin-right: calc(((100vw) - 320px)/2);
+    margin-left: calc(((100vw) - 320px)/2);
+    width: 320px;
+  }
+}
+
+@media only screen and (min-width: 580px) {
+  .video__container {
+    iframe {
+      max-height: 350px;
+      margin-right: calc(((100vw) - 500px)/2);
+      margin-left: calc(((100vw) - 500px)/2);
+      width: 500px;
+    }
+  }
+}

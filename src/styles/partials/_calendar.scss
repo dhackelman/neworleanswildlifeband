@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+.event-calendar {
+  font-size: 16px;
+  font-family: Open Sans;
+  // overflow:hidden;
+  // white-space: nowrap;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.head {
+  // margin-bottom: -3.2em;
+}
+
+.top-line {
+  font-family: Lobster;
+  font-weight: 400;
+  font-size: 3.5em;
+  text-transform: capitalize;
+  color: black;
+}
+
+.spacer {
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.event-list {
+  display: block;
+  border-right: 1px solid rgb(229, 229, 229);
+}
+
+.event {
+  text-decoration: none;
+}
+
+.event:nth-child(odd) .event-container {
+  border-left-color: black; /* brown */
+}
+
+.event-container {
+  color: rgb(171, 171, 171);
+  transition: all 0.2s ease;
+  background: rgba(250, 250, 250, 0.7);
+  border-left: 3px solid;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.event-container:hover {
+  border-left-width: 7px;
+  background:#ECEFF1;
+}
+
+.date-container {
+  display:inline-block;
+  width: 70px;
+  padding-left: 13px;
+  padding-right: 12px;
+  padding-bottom: 2px;
+  margin-right: 10px;
+  font-family: Oswald;
+  font-weight: 700;
+}
+
+.date {
+  font-size: 2em;
+}
+
+.month {
+  display:block;
+  font-size: .4em;
+  font-weight: 400;
+  margin-top:-.2em;
+  text-transform:uppercase;
+}
+
+.detail-container {
+  display:inline-block;
+  vertical-align:top;
+  padding-top:3px;
+}
+
+.title {
+  text-transform:uppercase;
+  font-family:Oswald;
+  font-weight:400;
+  font-size:1.5em;
+  color:black;
+}
+
+.description {
+  display:block;
+  font-size:0.9em;
+  margin-top: 0.2rem;
+  color:gray;
+}

@@ -1,28 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise');
+
 #main {
   background-color: $almost;
-  height: 15000px;
+  height: 2500px;
+}
+
+.image__label {
+  color: white;
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 4em;
+  text-align: center;
+  width: 100%;
 }
 
 .content__header {
+  // margin: -5%;
+  padding: 0;
   min-width: 100vw;
 
   .container__jumbotron {
+    margin: 0 auto;
+    padding: 0 0;
     width: 100%;
   }
 }
 
 .content__container {
-  background-color: rgba(230, 230, 230, 0.95);
+  background: url(../images/clouds.png) center center;
+  background-size: 100%;
   min-height: 200px;
-  padding-top: 5%;
+  // padding-top: 5%;
+  padding-bottom: 5%;
   width: 100vw;
 }
 
 .coming__soon, .patience {
+  background-color: rgba(250, 250, 250, 0.7);
   text-align: center;
   font-size: 1rem;
   font-weight: 700;
   margin: 0 auto;
+  min-height: 50px;
   width: 90%;
 }
 
@@ -30,31 +48,10 @@
   font-size: 0.75rem;
 }
 
-.video__container {
-  margin: 1% auto;
-  width: 100%;
-  iframe {
-    max-height: 250px;
-    margin-right: calc(((100vw) - 320px)/2);
-    margin-left: calc(((100vw) - 320px)/2);
-    width: 320px;
-  }
-}
 
 @media only screen and (max-width: 580px) {
   .container__jumbotron {
     margin: 0 auto;
     width: 100vw;
-  }
-}
-
-@media only screen and (min-width: 580px) {
-  .video__container {
-    iframe {
-      max-height: 350px;
-      margin-right: calc(((100vw) - 500px)/2);
-      margin-left: calc(((100vw) - 500px)/2);
-      width: 500px;
-    }
   }
 }

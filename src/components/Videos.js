@@ -18,10 +18,6 @@ class Videos extends React.Component {
             <div className="videos__container content__header">
               <img className="video__placeholder container__jumbotron"src={NOWBVideos} alt="the new orleans wildlife band music page"/>
             </div>
-            <div className="content__container">
-              <p className="coming__soon">Coming Soon!</p>
-              <p className="patience">Thanks for your patience!</p>
-            </div>
             <div className="video__container">
               <YouTube
                 videoId={videoId}

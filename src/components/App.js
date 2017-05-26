@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import About from './About';
+import AlbumComingSoon from './AlbumComingSoon';
 import Landing from './Landing';
 import Music from './Music';
 import Videos from './Videos';
@@ -38,6 +39,7 @@ class App extends React.Component {
             <div className="main">
                 <Header/>
                 <Landing/>
+                <AlbumComingSoon/>
                 <Music/>
                 <Videos/>
                 <Photos/>

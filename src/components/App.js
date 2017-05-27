@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import About from './About';
 import AlbumComingSoon from './AlbumComingSoon';
 import Landing from './Landing';
 import Music from './Music';
@@ -38,14 +37,7 @@ class App extends React.Component {
         return (
             <div className="main">
                 <Header/>
-                <Landing/>
-                <AlbumComingSoon/>
-                <Music/>
-                <Videos/>
-                <Photos/>
-                <Calendar/>
-                <Contact/>
-                <Links/>
+                  {childWithProp}
                 <Footer/>
             </div>
         );

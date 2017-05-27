@@ -8,7 +8,8 @@ class Calendar extends React.Component {
     render() {
         return (
           <div>
-            <div className="photos__container content__header">
+            <div className="calendar__container content__header">
+              <h1 className="content__header__text">Calendar</h1>
               <img className="container__jumbotron" src={NOWBCalendar} alt="the new orleans wildlife band calendar page"/>
             </div>
             <div className="content__container">

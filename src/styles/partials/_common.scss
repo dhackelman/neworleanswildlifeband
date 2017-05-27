@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise');
 
 #main {
   background-color: $almost;
@@ -13,16 +12,12 @@
   width: 100%;
 }
 
-.content__header {
-  // margin: -5%;
-  padding: 0;
-  min-width: 100vw;
 
-  .container__jumbotron {
-    margin: 0 auto;
-    padding: 0 0;
-    width: 100%;
-  }
+.container__jumbotron {
+  display: none;
+  margin: 0 auto;
+  padding: 0 0;
+  width: 100%;
 }
 
 .content__container {

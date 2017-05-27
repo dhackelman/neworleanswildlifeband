@@ -7,7 +7,7 @@
   font-family: Open Sans;
   // overflow:hidden;
   // white-space: nowrap;
-  margin: 0 auto;
+  margin: 2% auto;
   max-width: 90%;
 }
 
@@ -16,11 +16,13 @@
 }
 
 .top-line {
-  font-family: Lobster;
+  font-family: Oswald;
   font-weight: 400;
-  font-size: 3.5em;
+  font-size: 2.5em;
   text-transform: capitalize;
   color: black;
+  padding: 10px 0;
+  width: 150%
 }
 
 .spacer {
@@ -97,4 +99,11 @@
   font-size:0.9em;
   margin-top: 0.2rem;
   color:gray;
+}
+
+@media only screen and (min-width: 600px) {
+  .event-calendar {
+    margin: 5% auto;
+    max-width: 50%;
+  }
 }

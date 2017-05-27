@@ -9,6 +9,7 @@ class Photos extends React.Component {
         return (
           <div>
             <div className="photos__container content__header">
+              <h1 className="content__header__text">Photos</h1>
               <img className="container__jumbotron" src={NOWBPhotos} alt="the new orleans wildlife band photos page"/>
             </div>
             <div className="content__container">

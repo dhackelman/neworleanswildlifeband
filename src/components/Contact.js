@@ -9,11 +9,13 @@ class Contact extends React.Component {
         return (
           <div>
             <div className="contact__container content__header">
+              <h1 className="content__header__text">Booking</h1>
               <img className="container__jumbotron" src={NOWBBooking} alt="the new orleans wildlife band contact page"/>
             </div>
             <div className="content__container">
-              <p className="coming__soon">Coming Soon!</p>
-              <p className="patience">Thanks for your patience!</p>
+              <p className="booking__text">For booking inquiries, please contact:</p>
+                <p className="booking__text">Betina Brockamp - Booking Manager</p>
+                <p className="booking__text"><a href="mailto:nolawildlifeband@gmail.com">nolawildlifeband@gmail.com</a> </p>
             </div>
           </div>
         );

@@ -16,6 +16,7 @@ class Videos extends React.Component {
         return (
           <div>
             <div className="videos__container content__header">
+              <h1 className="content__header__text">Videos</h1>
               <img className="video__placeholder container__jumbotron"src={NOWBVideos} alt="the new orleans wildlife band music page"/>
             </div>
             <div className="video__container">

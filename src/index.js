@@ -16,13 +16,13 @@ ReactDOM.render((
     <Router history={browserHistory}>
         <Route path='/neworleanswildlifeband/' component={App}>
             <IndexRoute path='/neworleanswildlifeband/landing'/>
-              <Route path='/music' component={Music}/>
-              <Route path='/landing' component={Landing}/>
-              <Route path='/videos' component={Videos}/>
-              <Route path='/photos' component={Photos}/>
-              <Route path='/calendar' component={Calendar}/>
-              <Route path='/contact' component={Contact}/>
-              <Route path='/links' component={Links}/>
+              <Route path='/neworleanswildlifeband/music' component={Music}/>
+              <Route path='/neworleanswildlifeband/landing' component={Landing}/>
+              <Route path='/neworleanswildlifeband/videos' component={Videos}/>
+              <Route path='/neworleanswildlifeband/photos' component={Photos}/>
+              <Route path='/neworleanswildlifeband/calendar' component={Calendar}/>
+              <Route path='/neworleanswildlifeband/contact' component={Contact}/>
+              <Route path='/neworleanswildlifeband/links' component={Links}/>
               <Route path="/" component={NotFound}/>
         </Route>
     </Router>
